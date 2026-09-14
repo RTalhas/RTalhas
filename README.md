@@ -16,13 +16,6 @@ Detects anomalous behaviour in Linux VMs by turning system state into images and
 - Generates a labelled dataset by stressing the CPU, memory, network and processes
 - Benchmarks **Qwen2.5-VL, LLaVA and Moondream** locally through **Ollama**, comparing no-context, zero-shot and few-shot prompting
 
-**TalhasBorg: Discord bot for a self-hosted game server**
-A Python (`discord.py`) bot that manages a modded Minecraft server running in an LXC container on Proxmox.
-- Start / stop / restart the server with confirmation flows, plus live player and performance status
-- Admin tools over **RCON** (whitelist, kick, ban, broadcast)
-- Host monitoring through the **Proxmox VE API**: CPU, RAM, temperatures, SMART, storage, and 24h charts
-- Built with **least privilege** in mind: scoped API tokens, restricted commands, input validation, and a dedicated unprivileged service user
-
 **Homelab**
 Proxmox VE on a small server: LXC containers, systemd services, automated backups, remote access through Tailscale, and no ports opened on the router.
 Next up: an isolated network bridge for a Kali + vulnerable-targets lab.
